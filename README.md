@@ -44,10 +44,10 @@ flutter pub get
 
 3. Run the development server:
 ```bash
-flutter build web
+flutter run
 ```
 
-5. Open [http://localhost:3000](http://localhost:3000) in your browser
+
 
 ## Future Roadmap
 
