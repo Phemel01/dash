@@ -1,9 +1,9 @@
 # SafeDash - Accident Documentation & NFT Rewards Platform
 
 ## Team Name: SafeDash
-- Member #1: Lead Developer
-- Member #2: Blockchain Specialist
-- Member #3: UI/UX Designer
+- Member #1:Mahlomola Mohlomi
+- Member #2: Phemelo Maile
+- Member #3: Wiseman Mabuza
 
 ## Project Description
 
@@ -31,26 +31,20 @@ To run the SafeDash platform locally:
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/yourusername/safedash.git
-cd safedash
+
 ```
 
 2. Install dependencies:
 ```bash
-npm install
+flutter pub get
 ```
 
-3. Set up environment variables:
-Create a `.env.local` file with the following variables:
-```
-NEXT_PUBLIC_MAP_API_KEY=your_map_api_key
-BLOCKCHAIN_NETWORK_URL=your_network_url
-NFT_CONTRACT_ADDRESS=your_contract_address
+
 ```
 
-4. Run the development server:
+3. Run the development server:
 ```bash
-npm run dev
+flutter build web
 ```
 
 5. Open [http://localhost:3000](http://localhost:3000) in your browser
@@ -104,12 +98,7 @@ npm run dev
 - Regular security audits
 
 ## Tech Stack
-- Next.js for the frontend and API routes
-- Tailwind CSS for styling
-- Blockchain integration for NFT minting
-- Cloud storage for video files
-- Real-time mapping services
-- Emergency services API integration
+flutter
 
 ## License
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
